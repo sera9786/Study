@@ -76,4 +76,29 @@ C, C++ - [dev c++](https://sourceforge.net/projects/orwelldevcpp/), [Visual Stdi
 
 intellij가 좋긴하지만 문법이 자동완성되기 때문에 편하지만 문법의 형태를 잘익히기어렵다. 
 
-  
+  ## HTTP(Hyper Text Transfer Protocol)
+
+데이터를 주고받는 프로토콜.
+
+프로토콜이란 어떻게 통신을할것인가에대한 규약이다
+
+HTTP는 웹개발자라면 꼭알고있어야한다고 한다 서버를 관리하면서 통신을 어떻게하는지알고 혹시라도 그과정에서 오류가있을수도있기때문에 특히나 백엔드 개발자들에겐 중요하다
+
+#### HTTP의 특징
+
+* HTTP 메시지는 HTTP 서버와 HTTP 클라이언트에 의해서 해석이 됩니다.
+* TCP/IP를 이용하는 응용 프로토콜(application protocol)입니다.
+
+* HTTP는 연결 상태를 유지하지 않는 비연결성 프로토콜입니다. (이러한 단점을 해결하기 위해 Cookie와 Seesion 등장)
+
+* HTTP는 연결을 유지하지 않는 프로토콜이기 떄문에 요청/응답(request/response) 방식으로 동작합니다.
+
+![](C:\Users\DSM2018\AppData\Roaming\Typora\typora-user-images\1546572368478.png)
+
+HTTP는 이런식으로 동작하는데 프로토콜에는 많은 형식이있다 
+
+
+
+## 도커(docker)
+
+여기서는 도커에대한 개념과 기초만 다루도록하겠다 직접 사용해보고 활용하는것은 나중에 직접 공부를더해 따로 다루도록하겠습니다
