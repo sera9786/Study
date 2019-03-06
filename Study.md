@@ -93,8 +93,6 @@ HTTP는 웹개발자라면 꼭알고있어야한다고 한다 서버를 관리�
 
 * HTTP는 연결을 유지하지 않는 프로토콜이기 떄문에 요청/응답(request/response) 방식으로 동작합니다.
 
-![](C:\Users\DSM2018\AppData\Roaming\Typora\typora-user-images\1546572368478.png)
-
 HTTP는 이런식으로 동작하는데 프로토콜에는 많은 형식이있다 
 
 
@@ -159,4 +157,6 @@ HTTP는 이런식으로 동작하는데 프로토콜에는 많은 형식이있�
   *  DCL(Data Control Language)
 
   ![1551876527758](C:\Users\user\AppData\Roaming\Typora\typora-user-images\1551876527758.png)
+
+
 
