@@ -222,5 +222,17 @@ http와 다르게 WS라는 프로토콜을 사용한다 합니다 따라서 브�
 
 웹소켓을 이용한 프로젝트는 [블로그만들기](<https://github.com/sera9786/sql-blog>) 입니다. 부족하지만 한번씩 봐주시면 감사하겠습니다 
 
+## 알고리즘
+
+* 알고리즘 문제 사이트
+
+  * [프로그래머스](<https://programmers.co.kr/>)
+
+  * [백준](<https://www.acmicpc.net/>)
+
+    
+
 ## etc
-[좋은개발자 5가지기준](https://medium.com/code-states/good-developer-1-%EC%A2%8B%EC%9D%80-%EA%B0%9C%EB%B0%9C%EC%9E%90%EC%9D%98-5%EA%B0%80%EC%A7%80-%EA%B8%B0%EC%A4%80-b4b9f166caf7)
+[좋은개발자 5가지기준
+
+](https://medium.com/code-states/good-developer-1-%EC%A2%8B%EC%9D%80-%EA%B0%9C%EB%B0%9C%EC%9E%90%EC%9D%98-5%EA%B0%80%EC%A7%80-%EA%B8%B0%EC%A4%80-b4b9f166caf7)
