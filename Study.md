@@ -230,7 +230,9 @@ http와 다르게 WS라는 프로토콜을 사용한다 합니다 따라서 브�
 
   * [백준](<https://www.acmicpc.net/>)
 
-    
+### 순서도
+
+![순서도](https://t1.daumcdn.net/cfile/tistory/2719A450569513AE03?download)
 
 ## etc
 [좋은개발자 5가지기준
