@@ -229,6 +229,60 @@ http와 다르게 WS라는 프로토콜을 사용한다 합니다 따라서 브�
 * emit - 서버 <->클라이언트 데이터를 보낸다.
 * on - 서버 <->클라이언트 데이터를 받는다.
 
+이코드만으로도 소켓을 연결할수있다. 
+
+```
+ var socket = io.connect('http://localhost:3000');
+```
+
+client.html
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css'/>
+    <script src="../socket.io-client/dist/socket.io.js"></script>
+    <script src="../jquery/dist/jquery.min.js"></script>
+</head>
+<body>
+<textarea rows="20" cols="30" id="chat"></textarea><br>
+<input type="text" id="user"><input type="button" value="msg submit" onclick="myOnClick()">
+</body>
+<script>
+
+    var socket = io.connect('http://localhost:3100');
+    socket.on('recMsg', function (data) {
+        console.log(data.comment)
+        $('#chat').append(data.comment);
+    });
+
+    function myOnClick() {
+        socket.emit("msg", {comment: $('#user').val()});
+        $('#user').val('');
+    }
+</script>
+</html>
+```
+
+server.js
+
+```
+var io = require('socket.io').listen(3000);
+
+io.on('connection', function (socket) {
+    console.log('connect');
+    var instanceId = socket.id;
+    socket.on('msg', function (data) {
+        console.log(data);
+        socket.emit('recMsg', {comment: instanceId + ":" + data.comment+'\n'});
+    })
+});
+```
+
+
+
 
 
 ## 알고리즘
