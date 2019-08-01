@@ -10,7 +10,7 @@
 
 * C, C++ - [dev c++](https://sourceforge.net/projects/orwelldevcpp/), [Visual Stdio](https://visualstudio.microsoft.com/ko/vs/)
 
-다른언어들도 여러 IDE를 갖고있다 자바같은 경우는 이클립스를 조금써보고 intellij로 넘어가는것을추천한다 
+다른언어들도 여러 IDE를 갖고있다 자바같은 경우는 이클립스를 조금써보고 intellij로 넘어가는것을추천한다.
 
 intellij가 좋긴하지만 문법이 자동완성되기 때문에 편하지만 문법의 형태를 잘익히기어렵다. 
 
