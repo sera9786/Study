@@ -36,3 +36,11 @@ if(1){
 console.log(test); //test1
 ```
 
+const로 변수를 선언하면 값을 바꿀수없습니다. 다른값으로 할당한다면 에러가 발생합니다.
+
+```javascript
+const test = "test1"
+console.log(test); //test1
+test = "test2"
+```
+
