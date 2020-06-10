@@ -21,41 +21,35 @@ const test;
 ```javascript
 var test1 = 1;
 var test2 = 1;
-console.log(test1, test2); //1 1
+console.log(test1, test2)
 
-if(1){
-    test1 = 2; //재할당
-    var test2 = 2;//재선언
-}
+test1 = 2; // 재할당
+var test2 = 2; // 재선언
 
 console.log(test1, test2); //2 2
 ```
-`let`같은 경우를 보면 재할당은 됐지만 재선언은 되지 않은것을 확인할수있다.
+`let`같은 경우를 보면 재할당은 됐지만 재선언은 오류가 난다.
 
 ```javascript
 let test1 = 1;
 let test2 = 1;
 console.log(test1, test2);//1 1	
 
-if(1){
-    test1 = 2;
-    let test2 = 2;
-}
+test1 = 2;
+let test2 = 2; //오류발생
 
 console.log(test1, test2);//2 1
 ```
 
-`const`는 재선언, 재할당이 모두 불가하기 때문에 오류가 나버린다.
+`const`는 재선언, 재할당이 모두 불가하기 때문에 오류가 난다.
 
 ```javascript
 const test1 = 1;
 const test2 = 1;
 console.log(test1, test2);
 
-if(1){
-    test1 = 2;
-    const test2 = 2;
-}
+test1 = 2;
+const test2 = 2;
 
 console.log(test1, test2);
 ```
